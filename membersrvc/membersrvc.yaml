@@ -110,11 +110,11 @@ eca:
                 #
                 admin: 1 Xurw3yU9zI0l institution_a '{"registrar":{"roles":["client","peer","validator","auditor"],"delegateRoles":["client"]}}'
                 WebAppAdmin: 1 DJY27pEnl16d institution_a '{"registrar":{"roles":["client"]}}'
-                lukas: 1 NPKYL39uKbkj bank_a
-                system_chaincode_invoker: 1 DRJ20pEql15a institution_a
-                diego: 1 DRJ23pEQl16a institution_a
-                jim: 1 6avZQLwcUe9b bank_a
-                binhn: 1 7avZQLwcUe9q institution_a
+                lukas: 1 NPKYL39uKbkj bank_a '{"registrar":{"roles":["client"]}}'
+                system_chaincode_invoker: 1 DRJ20pEql15a institution_a '{"registrar":{"roles":["client"]}}'
+                diego: 1 DRJ23pEQl16a institution_a '{"registrar":{"roles":["client"]}}'
+                jim: 1 6avZQLwcUe9b bank_a '{"registrar":{"roles":["client"]}}'
+                binhn: 1 7avZQLwcUe9q institution_a '{"registrar":{"roles":["client"]}}'
 
                 # Users for asset transfer with roles test located at
                 # sdk/node/test/unit/asset-mgmt-with-roles.js
